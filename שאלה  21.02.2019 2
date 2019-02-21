@@ -1,0 +1,9 @@
+קלוט מספר הדפס חיובי.שלילי.שווה
+
+var x= parseInt (prompt("please enter first number", 0));
+if (x > 0)
+    console.log (x + ' positive')
+else if  (x < 0)
+  console.log (x +' not positive')
+  else 
+    console.log (" equal")
